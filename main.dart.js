@@ -88647,19 +88647,20 @@ return A.G($async$zd,r)},
 yz(a,b,c,d,e){return this.ac6(a,b,c,d,e)},
 ac6(a,b,c,d,e){var s=0,r=A.H(t.PN),q,p=this,o,n,m,l,k
 var $async$yz=A.I(function(f,g){if(f===1)return A.E(g,r)
-for(;;)switch(s){case 0:m=t.N
-l=A.ac(["provider",A.aV8(a)],m,m)
-k=p.ay
-s=k===B.fX?3:4
+for(;;)switch(s){case 0:l=t.N
+k=A.ac(["provider",A.aV8(a)],l,l)
+k.m(0,"redirect_to",c)
+o=p.ay
+s=o===B.fX?3:4
 break
-case 3:o=A.aZW()
+case 3:n=A.aZW()
 s=5
-return A.A(p.ax.tA("supabase.auth.token-code-verifier",o),$async$yz)
-case 5:n=B.nB.d4(B.mY.d4(o))
-l.P(0,A.ac(["flow_type",k.b,"code_challenge",B.n3.gBb().d4(n.a).split("=")[0],"code_challenge_method","s256"],m,m))
-case 4:m=A.IM(null,null,l).f
-if(m==null)m=""
-q=new A.Ow(e+"?"+m)
+return A.A(p.ax.tA("supabase.auth.token-code-verifier",n),$async$yz)
+case 5:m=B.nB.d4(B.mY.d4(n))
+k.P(0,A.ac(["flow_type",o.b,"code_challenge",B.n3.gBb().d4(m.a).split("=")[0],"code_challenge_method","s256"],l,l))
+case 4:l=A.IM(null,null,k).f
+if(l==null)l=""
+q=new A.Ow(e+"?"+l)
 s=1
 break
 case 1:return A.F(q,r)}})
@@ -89985,7 +89986,7 @@ return s.gfA().c},
 xB(){var s=0,r=A.H(t.H),q=this
 var $async$xB=A.I(function(a,b){if(a===1)return A.E(b,r)
 for(;;)switch(s){case 0:s=2
-return A.A(A.N0(A.ht(q).f0($.tn(),t.aq).gfA(),B.Ni,null),$async$xB)
+return A.A(A.N0(A.ht(q).f0($.tn(),t.aq).gfA(),B.Ni,"http://localhost:3000"),$async$xB)
 case 2:return A.F(null,r)}})
 return A.G($async$xB,r)},
 ia(){var s=0,r=A.H(t.H),q=this
